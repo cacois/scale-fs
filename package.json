@@ -1,0 +1,26 @@
+{
+  "name": "scale-fs",
+  "description": "Overloaded Node.js fs module improving efficiency and scalability.",
+  "tags": ["fs","scale","scalability","scale-fs","efficiency","efficient","file"],
+  "version": "0.1.0",
+  "author": {
+    "name": "C. Aaron Cois",
+    "email": "cacois@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cacois/scale-fs.git"
+  },
+  "bugs": {
+    "url": "http://github.com/cacois/scale-fs/issues"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "main": "index.js",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "node tests/run.js"
+  }
+}
