@@ -2,7 +2,7 @@
   "name": "scale-fs",
   "description": "Overloaded Node.js fs module improving efficiency and scalability.",
   "tags": ["fs","scale","scalability","scale-fs","efficiency","efficient","file"],
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": {
     "name": "C. Aaron Cois",
     "email": "cacois@gmail.com"
