@@ -3,9 +3,9 @@ assert = require('assert');
 
 fs.setCacheLifetime(2000);
 
-fs.readFile('testfile.txt', function(err, contents) {
+fs.readFile('tests/testfile.txt', function(err, contents) {
     if(err) console.log('Error reading file. ' + err);
-    else { 
+    else {
         assert.equal(contents.toString(), "testfile contents", "Error in contents read from file.");
         console.log('Tests passed!');
     }
