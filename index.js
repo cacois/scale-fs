@@ -24,7 +24,7 @@ Object.keys(fs).forEach(function(key) {
 module.exports.cacheLifetime = 1000;
 
 module.exports.setCacheLifetime = function(lifetime) {
-  module.exports.cacheLifetime = 1000;
+  module.exports.cacheLifetime = lifetime;
 }
 
 // Overwrite methods we want to enhance
