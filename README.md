@@ -1,10 +1,10 @@
 # scale-fs
 
 A module extending the standard node.js fs module to
-add enahnced capabilities to improve efficiency and scalability.
+add enhanced capabilities to improve efficiency and scalability.
  
 Currently, the effected method is fs.readFile(), which is 
-overloaded to provide temporary caching of requets and responses
+overloaded to provide temporary caching of requests and responses
 of file read operations. This means that whether 1 or 1,000,000 
 requests are made for the same file, the file will only actually 
 be read from disk once, potentially dramatically reducing disk
